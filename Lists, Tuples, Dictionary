@@ -1,0 +1,24 @@
+# My-coding
+Programming by Sreelekshmi
+
+list1 = [1, "name", True]
+#To assign one more element
+list1.append("course")
+print(list1)
+#To assign at a particular position
+list1.insert(3, "age")
+print(list1)
+#Creating tuple
+t1 = ("sree", 22, True, "place")
+print(t1)
+#access elements
+print(t1[1])
+print(t1[3])
+#Dictionary
+d1 = {1:"Name", 2: 20, 3:"job", 4:True}
+print(d1[3])
+#deleting elements
+del d1[2]
+print(d1)
+del d1[1]
+print(d1)
